@@ -19,9 +19,27 @@ StalinSort for PHP7+
     
     // Sort data
     print_r( $sorter->sort() );
+    /*
+        Array
+        (
+            [0] => 4
+            [1] => 9
+            [2] => 12
+            [3] => 20
+        )
+    */
     
     // Sort data and maintain index association
     print_r( $sorter->asort() );
+    /*
+        Array
+        (
+            [0] => 4
+            [5] => 9
+            [7] => 12
+            [10] => 20
+        )
+    */
 ```
 
 # License
