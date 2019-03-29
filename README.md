@@ -1,13 +1,15 @@
 # StalinSort
 StalinSort for PHP7+
 
+- Traverses array and removes all elements that break the order.
+
 ## Installing
 
 `composer require nhujanen/stalinsort`
 
 ## Usage
 
-```
+```php
 <?php
     require_once 'vendor/autoload.php';
     
